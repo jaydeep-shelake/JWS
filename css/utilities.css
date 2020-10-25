@@ -1,0 +1,143 @@
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+    justify-self: flex-end;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.grid{
+    
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.grid-3{
+    grid-template-columns:repeat(3,1fr);
+}
+.card{
+    background: #fff;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(121, 82, 11, 0.426);
+    padding: 20px;
+   color: #333;
+}
+.btn{
+    display: inline-block;
+    padding: 0.6rem 2.2rem;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    border: none;
+    outline: none;
+
+    border-radius: 4px;
+    color: white;
+}
+.btn-outline{
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.btn:active{
+    box-shadow: inset -6px -6px 9px #fff, inset 6px 6px 9px rgba(0, 0, 0, 0.418);
+
+}
+.bg-primary{
+    background: rgb(248, 246, 246);
+}
+.text-center{
+    text-align: center;
+}
+.alert {
+   background: #f5d41a;
+   padding: 20px;
+   font-weight: bold;
+   margin: 15px 0;
+   border-radius: 4px;
+   color: #333;
+}
+.alert i{
+    margin-right: 10px;
+    color: red;
+}
+.alert-success{
+ background: #65df1f;
+ 
+}
+.active{
+    color: blue;
+}
+.my-1{
+    margin: 1rem 0;
+}
+.my-2{
+    margin: 1.5rem 0;
+}
+.my-3{
+    margin: 2rem 0;
+}
+.my-4{
+  margin: 3rem 0;
+}
+.m-1{
+    margin: 1rem;
+}
+.m-2{
+    margin: 1.5rem;
+}
+.m-3{
+    margin: 2rem;
+}
+.m-4{
+  margin: 3rem;
+}
+.py-1{
+    padding: 1rem 0;
+}
+.py-2{
+    padding: 1.5rem 0;
+}
+.py-3{
+    padding: 2rem 0;
+}
+.py-4{
+  padding: 3rem 0;
+}
+.p-1{
+    margin: 1rem;
+}
+.p-2{
+    margin: 1.5rem;
+}
+.p-3{
+    margin: 2rem;
+}
+.p-4{
+  margin: 3rem;
+}
+.lead{
+    font-size: 20px;
+}
+.sm{
+    font-size: 1rem;
+}
+.md{
+    font-size: 2rem;
+}
+.lg{
+    font-size: 3rem;
+}
+.xl{
+    font-size: 4rem;
+}
+.bg-sec{
+    background: #f5d41a;
+}
